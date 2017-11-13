@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EC388B4E1FB9DF72008E3F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC388B4D1FB9DF72008E3F89 /* AppDelegate.swift */; };
-		EC388B501FB9DF72008E3F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC388B4F1FB9DF72008E3F89 /* ViewController.swift */; };
-		EC388B531FB9DF72008E3F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC388B511FB9DF72008E3F89 /* Main.storyboard */; };
 		EC388B551FB9DF72008E3F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC388B541FB9DF72008E3F89 /* Assets.xcassets */; };
 		EC388B581FB9DF72008E3F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC388B561FB9DF72008E3F89 /* LaunchScreen.storyboard */; };
+		EC388B611FB9E085008E3F89 /* GeolocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC388B5F1FB9E085008E3F89 /* GeolocViewController.swift */; };
+		EC388B621FB9E085008E3F89 /* GeolocViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC388B601FB9E085008E3F89 /* GeolocViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC388B4A1FB9DF72008E3F89 /* GeolocTuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeolocTuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC388B4D1FB9DF72008E3F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC388B4F1FB9DF72008E3F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC388B521FB9DF72008E3F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC388B541FB9DF72008E3F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC388B571FB9DF72008E3F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC388B591FB9DF72008E3F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC388B5F1FB9E085008E3F89 /* GeolocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeolocViewController.swift; sourceTree = "<group>"; };
+		EC388B601FB9E085008E3F89 /* GeolocViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeolocViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				EC388B4D1FB9DF72008E3F89 /* AppDelegate.swift */,
-				EC388B4F1FB9DF72008E3F89 /* ViewController.swift */,
-				EC388B511FB9DF72008E3F89 /* Main.storyboard */,
 				EC388B541FB9DF72008E3F89 /* Assets.xcassets */,
 				EC388B561FB9DF72008E3F89 /* LaunchScreen.storyboard */,
 				EC388B591FB9DF72008E3F89 /* Info.plist */,
+				EC388B5F1FB9E085008E3F89 /* GeolocViewController.swift */,
+				EC388B601FB9E085008E3F89 /* GeolocViewController.xib */,
 			);
 			path = GeolocTuto;
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC388B581FB9DF72008E3F89 /* LaunchScreen.storyboard in Resources */,
+				EC388B621FB9E085008E3F89 /* GeolocViewController.xib in Resources */,
 				EC388B551FB9DF72008E3F89 /* Assets.xcassets in Resources */,
-				EC388B531FB9DF72008E3F89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +136,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC388B501FB9DF72008E3F89 /* ViewController.swift in Sources */,
 				EC388B4E1FB9DF72008E3F89 /* AppDelegate.swift in Sources */,
+				EC388B611FB9E085008E3F89 /* GeolocViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC388B511FB9DF72008E3F89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC388B521FB9DF72008E3F89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC388B561FB9DF72008E3F89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
